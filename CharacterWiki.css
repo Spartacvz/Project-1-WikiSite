@@ -1,0 +1,239 @@
+h2 {
+    font-weight: bolder;
+}
+
+p {
+    color: #ffffff;
+}
+
+html, body {
+    padding: 15px 15px 15px 15px;
+    margin: 0;
+    background-color: #4f5154;
+}
+
+.menuBody {
+    margin: 0;
+    padding: 0;
+}
+
+.menuIcon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 44px;
+    padding: 4px 8px;
+    background: #262626;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.menuIcon span {
+    width: 100%;
+    height: 4px;
+    display: block;
+    background: #ffffff;
+    margin: 6px 0;
+    transition: .5s;
+}
+
+.menuBody .sideBar {
+    position: fixed;
+    top: 70px;
+    left: -300px;
+    width: 300px;
+    height: 100vh;
+    background: #262626;
+    transition: .5s;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    opacity: .85;
+}
+
+.sideBar.active{
+    left: 0px;
+}
+
+.sideBar .menu {
+    margin: 0;
+    padding: 40px 0;
+}
+
+.sideBar .menu li{
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.sideBar .menu li a {
+    display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sideBar .menu li a:hover {
+    background-color: #fc2827;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menuIcon.active span{
+    position: absolute;
+    width: calc(100% - 16px);
+    top: calc(50% - 8px);
+}
+
+.menuIcon.active span:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.menuIcon.active span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.menuIcon.active span:nth-child(3) {
+    transform: rotate(135deg);
+}
+
+.heading {
+    text-decoration: underline;
+}
+
+.title {
+    padding: 15px;
+    text-align: left;
+    background: red;
+    color: black;
+    font-size: 30px;
+}
+
+.back-story {
+
+}
+
+.imageHolder {
+    width: 190px;
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    transition: .5s;
+    height: 75px;
+    cursor: pointer;
+}
+
+.imageHolder.active {
+    right: -175px;
+}
+
+.names {
+     width: 190px;
+     position: fixed;
+     top: 260px;
+     right: -8px;
+    transition: .5s;
+    height: 75px;
+    cursor: pointer;
+ }
+
+.names.active {
+    right: -175px;
+}
+
+.build {
+    width: 190px;
+    position: fixed;
+    top: 335px;
+    right: -8px;
+    transition: .5s;
+    height: 75px;
+    cursor: pointer;
+}
+
+.build.active {
+    right: -175px;
+}
+.power {
+    width: 190px;
+    position: fixed;
+    top: 410px;
+    right: -8px;
+    transition: .5s;
+    height: 75px;
+    cursor: pointer;
+}
+
+.power.active {
+    right: -175px;
+}
+
+.talents {
+    width: 190px;
+    position: fixed;
+    top: 485px;
+    right: -8px;
+    transition: .5s;
+    height: 90px;
+    cursor: pointer;
+}
+
+.talents.active {
+    right: -175px;
+}
+
+.abilities {
+    width: 190px;
+    position: fixed;
+    top: 577px;
+    right: -8px;
+    transition: .5s;
+    height: 125px;
+    cursor: pointer;
+}
+
+.abilities.active {
+    right: -175px;
+}
+
+.pHeader {
+    text-decoration: underline;
+}
+
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th{
+    text-align: left;
+    font-size: 15pt;
+    color: red;
+}
+
+.red{
+    color: red;
+    background-color: white;
+    padding: 10px 10px;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+}
+
+.quikView{
+    color: white;
+    background-color: red;
+    padding: 10px 10px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.quikViewTitle {
+    color: #000;
+}
